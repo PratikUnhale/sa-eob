@@ -1,0 +1,38 @@
+.basic{
+    background-color: #ededed;
+    color: #a1a1a1;
+    border: none;
+    border-radius: 3px;
+    padding: 0px 1rem 0px 1rem;
+    transition: ease background-color 0.2s;
+
+}
+
+.accent{
+    background-color: #df8b0d;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 0px 1rem 0px 1rem;
+    transition: ease background-color 0.2s;
+
+}
+
+.basic:hover{
+    background-color: #c8c7c7;
+    color: #a1a1a1;
+    border: none;
+    border-radius: 3px;
+    padding: 0px 1rem 0px 1rem;
+    transition: ease background-color 0.2s;
+}
+
+.accent:hover{
+    background-color: #c27a0d;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 0px 1rem 0px 1rem;
+    transition: ease background-color 0.2s;
+
+}

@@ -1,0 +1,18 @@
+.profile-floater{
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    right: 0;
+    transition: ease height 0.2s;
+}
+
+.profile-floater-hidden{
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 0;
+    width: 20vw;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    transition: ease height 0.2s;
+}

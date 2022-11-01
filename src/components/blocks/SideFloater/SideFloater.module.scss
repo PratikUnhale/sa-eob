@@ -1,0 +1,35 @@
+.side-floater{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 30vw;
+    position: absolute;
+    right: 0;
+    transition: ease width 0.3s;
+}
+
+.side-floater-hidden{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 0vw;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    transition: ease width 0.3s;
+}
+
+.floater-header{
+    display: flex;
+}
+
+.close-button{
+    background-color: black;
+    border-radius: 0;
+    color: white;
+    padding: 0.25rem;
+}
+
+.header-title{
+    padding: 0.25rem;
+    background-color: aliceblue;
+    flex-grow: 1;
+}

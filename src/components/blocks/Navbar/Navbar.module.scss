@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    padding: 1vh;
+    background-color: #000000;
+}
+
+.space{
+    flex-grow: 1;
+}
+
+.title{
+    flex-grow: 1;
+    text-align: center;
+    color: #747474;
+}
+
+.profile-menu{
+    flex-grow: 1;
+}
+
+.profile-button{
+    float: right;
+}

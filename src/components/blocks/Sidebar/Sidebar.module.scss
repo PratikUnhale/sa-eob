@@ -1,0 +1,23 @@
+.sidebar{
+    width: 10rem;
+    background-color: #303030;
+    padding-top: 7vh;
+}
+
+.side-bar-item{
+    text-align: center;
+    color: #747474;
+    padding: 0.75rem;
+    transition: ease color 0.3s;
+    font-size: 14pt;
+}
+
+.side-bar-item:hover{
+    color: #ffffff;
+    transition: ease color 0.3s;
+}
+
+.side-bar-item-active{
+    color: rgb(255, 255, 255);
+    transition: ease color 0.3s;
+}
